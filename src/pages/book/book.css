@@ -1,0 +1,17 @@
+.book-section {
+  background-image: url("../../assets/menu/background.avif");
+  background-position: fixed;
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.8); /* Semi-transparent red */
+  background-blend-mode: multiply; /* Blend mode */
+}
+
+@media (max-width: 1535px) {
+  .book-section-container {
+    display: flex;
+    flex-flow: column;
+  }
+}

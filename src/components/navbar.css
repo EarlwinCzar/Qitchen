@@ -1,0 +1,130 @@
+.nav-header {
+  min-width: 453px;
+  height: 53px;
+  font-size: 12px;
+  border-radius: 5px;
+  padding-inline: 3px;
+  position: absolute;
+  top: 80px;
+  left: 80px;
+  background-color: black;
+  z-index: 1;
+}
+
+.nav-header-nav {
+  height: 100%;
+  width: 100%;
+}
+
+.nav-header-nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 100%;
+}
+
+.nav-header-nav .nav-list {
+  padding: 10px 15px;
+  background-color: transparent;
+
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.book-button {
+  border: 1px var(--clr-primary) solid;
+}
+
+.nav-header-nav a {
+  font-size: var(--size-base);
+  text-decoration: none;
+}
+
+.nav-ham {
+  font-size: 20px;
+}
+
+.nav-ham {
+  padding: 5px 10px;
+  background-color: transparent;
+  border: 1px var(--clr-primary) solid;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.background-video {
+  max-width: 100%;
+}
+
+.menu-button,
+.about-button {
+  outline: none;
+  border: none;
+}
+
+.menu-button:hover,
+.about-button:hover {
+  outline: 1px var(--clr-dark) solid;
+}
+
+@media (max-width: 1535px) {
+  .nav-header {
+    min-width: 453px;
+    height: 53px;
+    font-size: 12px;
+    border-radius: 5px;
+    padding-inline: 3px;
+    position: absolute;
+    top: 80px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: black;
+    z-index: 1;
+  }
+}
+
+@media (max-width: 640px) {
+  .nav-header {
+    min-width: 453px;
+    height: 53px;
+    font-size: 12px;
+    border-radius: 5px;
+    padding-inline: 3px;
+    position: absolute;
+    top: 1.8%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: black;
+    z-index: 1;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+  }
+  .nav-menu,
+  .nav-about {
+    display: none;
+  }
+
+  .nav-header-nav ul {
+    display: flex;
+    justify-content: space-evenly;
+  }
+}
+
+@media (max-width: 500px) {
+  .nav-header-nav,
+  .nav-header {
+    min-width: 100px;
+    display: flex;
+    justify-content: center;
+  }
+  .nav-header-nav ul {
+    display: flex;
+    justify-content: flex-start;
+  }
+  .nav-about,
+  .nav-menu,
+  .nav-book,
+  .nav-home {
+    display: none;
+  }
+}

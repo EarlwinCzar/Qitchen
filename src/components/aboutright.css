@@ -1,0 +1,129 @@
+.about-right {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  gap: 10px;
+  border-radius: 25px;
+  border: 1px solid var(--clr-primary);
+  padding: 10px;
+}
+
+.about-right-wrapper-1,
+.about-right-wrapper-2,
+.about-right-wrapper-3 {
+  display: flex;
+  width: 100%;
+}
+
+.about-right-wrapper-1,
+.about-right-wrapper-3 {
+  gap: 10px;
+}
+
+.about-right-wrapper-2 {
+  display: flex;
+}
+
+.about-right-wrapper-1-left,
+.about-right-wrapper-1-right,
+.about-right-wrapper-3-left,
+.about-right-wrapper-3-right {
+  width: 50%;
+}
+
+.about-right-wrapper-1-right,
+.about-right-wrapper-3-left {
+  border: 1px solid var(--clr-primary);
+  border-radius: 25px;
+}
+
+.about-right-wrapper-1-left,
+.about-right-wrapper-3-right {
+  border: 1px solid var(--clr-primary);
+  border-radius: 25px;
+  padding: 30px;
+  display: flex;
+  flex-flow: column;
+  gap: 100px;
+  min-height: 330px;
+}
+
+.about-right-wrapper-3-right h4 {
+  text-align: center;
+  font-size: 30px;
+}
+
+.about-right-wrapper-1-left h4 {
+  font-size: 30px;
+}
+
+.about-right-wrapper-1-left p,
+.about-right-wrapper-3-right p {
+  line-height: 24px;
+}
+
+.about-right-wrapper-1-right,
+.about-right-wrapper-3-left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  height: 100%;
+}
+
+.about-right-wrapper-2 {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+}
+
+.about-right-wrapper-2-rating {
+  display: flex;
+  flex-direction: column;
+  padding: 15px 50px;
+  gap: 10px;
+  align-items: center;
+  border: 1px solid var(--clr-primary);
+  border-radius: 25px;
+  text-align: center;
+}
+
+.about-right-wrapper-2-rating h4 {
+  font-size: 30px;
+}
+
+.about-right-wrapper-2-rating ul {
+  display: flex;
+}
+
+.about-stars li {
+  margin: 0 5px;
+}
+
+@media (max-width: 767px) {
+  .about-right-wrapper-2 {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 1535px) {
+  .about-right-wrapper-2-rating {
+    width: 100%;
+  }
+}
+
+@media (max-width: 724px) {
+  .about-right-wrapper-1,
+  .about-right-wrapper-3 {
+    display: flex;
+    flex-direction: column;
+  }
+  .about-right-wrapper-1-left,
+  .about-right-wrapper-1-right,
+  .about-right-wrapper-3-left,
+  .about-right-wrapper-3-right {
+    width: 100%;
+  }
+}

@@ -1,0 +1,47 @@
+.book-right {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  gap: 50px;
+  border-radius: 25px;
+  border: 1px solid var(--clr-primary);
+  padding: 100px 50px;
+  align-items: center;
+}
+
+.book-right-header {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  text-align: center;
+}
+
+.book-right-header h3 {
+  font-size: 30px;
+}
+
+.book-right-body {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 70%;
+}
+
+.book-right-body input,
+textarea {
+  background-color: rgba(18, 19, 18, 0.5);
+  border: none;
+  padding: 10px;
+  font-size: large;
+}
+
+.book-right-body button {
+  color: black;
+  padding: 15px 0;
+  background-color: beige;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}

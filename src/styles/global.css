@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Forum&display=swap");
+
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Forum, Sans-serif;
+  list-style: none;
+  color: var(--clr-primary);
+}
+
+:root {
+  --clr-primary: #efe7d2;
+  --clr-dark: #d6cfbe;
+
+  /* sizes */
+  --size-xxs: 18px;
+  --size-xs: 20px;
+  --size-sm: 24px;
+  --size-base: 32px;
+  --size-lg: 48px;
+  --size-xl: 64px;
+  --size-2xl: 80px;
+  --size-3xl: 96px;
+  --size-4xl: 112px;
+  --size-5xl: 128px;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+  user-select: none;
+}
+
+body {
+  background-color: black;
+}

@@ -1,0 +1,31 @@
+.menu-section {
+  background-image: url("../../assets/menu/background.avif");
+  background-position: fixed;
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.8); /* Semi-transparent red */
+  background-blend-mode: multiply; /* Blend mode */
+}
+
+@media (min-width: 1280px) and (max-width: 1535px) {
+  .menu-nav {
+    position: fixed;
+    top: 0;
+    left: 25%;
+    z-index: 1;
+  }
+}
+
+@media (max-width: 1279px) {
+  .menu-section-container {
+    display: flex;
+    flex-flow: column;
+  }
+  .menu-nav {
+    position: absolute;
+    top: -6.5%;
+    left: 50%;
+  }
+}
