@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Qitchen/static/css/main.57790152.css",
-    "main.js": "/Qitchen/static/js/main.8bce3b92.js",
+    "main.js": "/Qitchen/static/js/main.f29893f8.js",
     "static/media/homeVid.mp4": "/Qitchen/static/media/homeVid.b5641fb17ae8e4da993d.mp4",
     "static/media/menuleft.webp": "/Qitchen/static/media/menuleft.ae8fac31532198c8bf24.webp",
     "static/media/background.avif": "/Qitchen/static/media/background.f0b04b5797db0deaf8d8.avif",
@@ -43,10 +43,10 @@
     "static/media/rightimg4.webp": "/Qitchen/static/media/rightimg4.97be10e2c4107e88329f.webp",
     "index.html": "/Qitchen/index.html",
     "main.57790152.css.map": "/Qitchen/static/css/main.57790152.css.map",
-    "main.8bce3b92.js.map": "/Qitchen/static/js/main.8bce3b92.js.map"
+    "main.f29893f8.js.map": "/Qitchen/static/js/main.f29893f8.js.map"
   },
   "entrypoints": [
     "static/css/main.57790152.css",
-    "static/js/main.8bce3b92.js"
+    "static/js/main.f29893f8.js"
   ]
 }
