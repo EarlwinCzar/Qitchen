@@ -1,9 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Forum&display=swap");
 
-html {
-  scroll-behavior: smooth;
+body {
+  background-color: black;
 }
-
 * {
   margin: 0;
   padding: 0;
@@ -38,8 +37,4 @@ svg {
   display: block;
   max-width: 100%;
   user-select: none;
-}
-
-body {
-  background-color: black;
 }

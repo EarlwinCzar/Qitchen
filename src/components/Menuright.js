@@ -1,8 +1,9 @@
-import React, { useState } from "react";
+import React from "react";
 import "./menuright.css";
 import Maki from "./Maki.js";
 import Urumaki from "./Urumaki.js";
 import Specialrolls from "./Specialrolls.js";
+import { Link, animateScroll as scroll } from "react-scroll";
 
 function Menuright() {
   return (
@@ -10,13 +11,35 @@ function Menuright() {
       <div className="menu-right-head">
         <ul>
           <li>
-            <a href="#maki">MAKI</a>
+            <Link
+              to="maki"
+              spy={true}
+              smooth={true}
+              offset={-70} // Adjust offset as needed to account for navbar height
+              duration={500} // Adjust duration as needed
+            >
+              MAKI
+            </Link>
           </li>
           <li>
-            <a href="#urumaki">URAMAKI</a>
+            <Link
+              to="urumaki"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}>
+              URAMAKI
+            </Link>
           </li>
           <li>
-            <a href="#rolls">SPECIAL ROLLS</a>
+            <Link
+              to="rolls"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}>
+              SPECIAL ROLLS
+            </Link>
           </li>
         </ul>
       </div>

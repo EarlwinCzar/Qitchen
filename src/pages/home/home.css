@@ -4,3 +4,8 @@
     flex-flow: column;
   }
 }
+
+.home-container,
+.home {
+  overflow-block: hidden;
+}

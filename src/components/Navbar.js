@@ -12,22 +12,24 @@ const Navbar = () => {
             <ModalComponent />
           </li>
           <li className="nav-home">
-            <Link to="/">
-              <a>QITCHEN</a>
+            <Link to="/" className="nav-link">
+              {" "}
+              {/* Added className for styling */}
+              QITCHEN
             </Link>
           </li>
           <li className="nav-menu">
-            <Link to="/menu">
+            <Link to="/menu" className="nav-link">
               <button className="nav-list menu-button">MENU</button>
             </Link>
           </li>
           <li className="nav-about">
-            <Link to="/about">
+            <Link to="/about" className="nav-link">
               <button className="nav-list about-button">ABOUT</button>
             </Link>
           </li>
           <li className="nav-book">
-            <Link to="/book">
+            <Link to="/book" className="nav-link">
               <button className="nav-list book-button">BOOK A TABLE</button>
             </Link>
           </li>

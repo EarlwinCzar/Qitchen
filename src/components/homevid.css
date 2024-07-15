@@ -47,7 +47,7 @@
   height: 95%; /* Adjust height as needed */
   object-fit: cover;
   transform: translate(-50%, -50%);
-  z-index: -2; /* Ensure it's behind other content */
+  z-index: 0; /* Ensure it's behind other content */
 }
 
 @media (max-width: 1535px) {
