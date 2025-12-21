@@ -1,0 +1,29 @@
+.contact-card {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.contact-card__icon {
+  font-size: 2.5rem;
+  color: #3b82f6;
+}
+
+.contact-card__title {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #111827;
+  margin: 0;
+}
+
+.contact-card__description {
+  font-size: 0.875rem;
+  color: #6b7280;
+  margin: 0;
+}
+
+.contact-card__button {
+  margin-top: 0.5rem;
+}

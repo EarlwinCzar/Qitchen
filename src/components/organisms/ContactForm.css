@@ -1,0 +1,30 @@
+.contact-form {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.contact-form__title {
+  font-size: 1.875rem;
+  font-weight: 700;
+  color: #111827;
+  margin: 0 0 0.5rem 0;
+  text-align: center;
+}
+
+.contact-form__subtitle {
+  font-size: 1rem;
+  color: #6b7280;
+  margin: 0 0 2rem 0;
+  text-align: center;
+}
+
+.contact-form__form {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-form__actions {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: flex-end;
+}
